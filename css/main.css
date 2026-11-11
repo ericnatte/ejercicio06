@@ -5,6 +5,18 @@ h1 {
   font-size: 1.5em;
   font-weight: bold;
 }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 5px;
+}
+
+.item-1,
+.item-5 {
+  grid-column: 1 / -1;
+}
+
 .grid-item {
   background-color: lightsalmon;
   padding: 3rem;
