@@ -17,6 +17,10 @@ h1 {
   grid-column: 1 / -1;
 }
 
+.item-4 {
+  align-self: end;
+}
+
 .grid-item {
   background-color: lightsalmon;
   padding: 3rem;
